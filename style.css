@@ -1,0 +1,202 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.white {
+    color: white;
+}
+
+.abs {
+    position: absolute;
+    top: 42%;
+}
+
+.abs2 {
+    position: absolute;
+    top: 10%;
+}
+
+.rad {
+    border-radius: 10px;
+}
+
+.no-mrg {
+    margin: 0%;
+}
+
+.mrg-btm {
+    margin-bottom: 30px;
+}
+
+.mrg-btm1 {
+    margin-bottom: 15px;
+}
+
+.no-pdg {
+    padding: 0%;
+}
+
+.pdg-aside {
+    padding: 0 20px;
+}
+
+.grey {
+    color: #727272;
+    font-size: 22px;
+}
+
+.blue {
+    color: #0072ce;
+}
+
+.txt-cntr {
+    text-align: center;
+}
+
+.txt-str {
+    text-align: start;
+}
+
+
+
+/* HEADER */
+.top-header {
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.top-header p {
+    font-family: 'Scheherazade New', serif;
+    color: white;
+    margin: 0%;
+    font-size: 20px;
+    margin: 5px 15px;
+}
+
+/* MAIN */
+
+/* RETURNAL-SECTION */
+.returnal-section {
+    position: relative;
+    width: 100%;
+    height: 593px;
+    background-image: url(./playstation/img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
+}
+
+.text-returnal img {
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.text-returnal .btn {
+    background-color: #cd3d0f;
+    border: 1px solid #cd3d0f;
+    border-radius: 20px;
+}
+
+/* GAME SECTION */
+.game-section img {
+    width: 100%;
+}
+
+.game-section {
+    margin: 40px;
+}
+
+.space {
+    margin: 20px 0;
+}
+
+.row .rad:hover img{
+    border: 2px solid #0072ce;
+    padding: 3px;
+}
+
+/* CONSOLE SECTION */
+.console-section {
+    margin: 40px;
+}
+
+.ps-5 {
+    width: 100%;
+    object-fit: cover;
+}
+
+.console-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.opacity {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .5);
+    position: absolute;
+    top: 0%;
+}
+
+.box2:hover .opacity {
+    opacity: 0;
+}
+
+.box2:hover {
+    border-bottom: 3px solid #0072ce;
+}
+
+.box {
+    position: relative;
+}
+
+.console-section .btn-primary {
+    background-color: #0072ce;
+    border-radius: 20px;
+}
+
+/* IT TAKES TWO SECTION */
+.takes-two-section {
+    position: relative;
+    width: 100%;
+    height: 620px;
+    background-image: url(./playstation/img/it-takes-two-hero-banner-desktop.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+}
+
+.takes-two-section img {
+    width: 270px;
+    margin-bottom: 30px;
+}
+
+.takes-two-section h2 {
+    font-size: 47px;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+
+.takes-two-section .btn {
+    background-color: #cd3d0f;
+    border: 1px solid #cd3d0f;
+    border-radius: 20px;
+}
+
+.new-exit-section {
+    width: 100%;
+    background-color: #1f1f1f;
+    padding: 30px 0;
+}
+
+.new-exit-section img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
