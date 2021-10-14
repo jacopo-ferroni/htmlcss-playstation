@@ -157,9 +157,20 @@ header .navbar-light .navbar-nav .nav-link {
     border-radius: 20px;
 }
 
+.text-returnal .btn-primary:hover {
+    transform: scale(.8);
+    border: 2px solid #0072ce;
+}
+
+.btn-brd {
+    width: auto;
+}
+
 /* GAME SECTION */
 .game-section img {
     width: 100%;
+    border: 2px solid transparent;
+    padding: 2px;
 }
 
 .game-section {
@@ -171,8 +182,7 @@ header .navbar-light .navbar-nav .nav-link {
 }
 
 .row .rad:hover img{
-    border: 2px solid #0072ce;
-    padding: 3px;
+    border-color: #0072ce;
 }
 
 /* CONSOLE SECTION */
@@ -202,12 +212,14 @@ header .navbar-light .navbar-nav .nav-link {
     opacity: 0;
 }
 
-.box2:hover {
+.box:hover {
     border-bottom: 3px solid #0072ce;
 }
 
 .box {
     position: relative;
+    height: 100%;
+    border-bottom: 3px solid transparent;
 }
 
 .console-section .btn-primary {
